@@ -69,7 +69,8 @@ def main():
         "aiplatform.googleapis.com",
         "storage.googleapis.com",
         "generativelanguage.googleapis.com",
-        "secretmanager.googleapis.com"
+        "secretmanager.googleapis.com",
+        "firebase.googleapis.com"
     ]
     enable_command = f"gcloud services enable {' '.join(services)}"
     print("Enabling required services...")
