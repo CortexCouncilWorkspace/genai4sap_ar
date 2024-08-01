@@ -1,0 +1,1 @@
+gcloud run services proxy YOUR_CLOUD_RUN_APP_NAME --project PROJECT_ID --region REGION_ID
