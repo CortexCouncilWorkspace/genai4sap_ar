@@ -1,1 +1,5 @@
+#To open your non public url
 gcloud run services proxy YOUR_CLOUD_RUN_APP_NAME --project PROJECT_ID --region REGION_ID
+
+#To get bearer token for API Calls
+gcloud auth print-identity-token
